@@ -3,16 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的个人网站</title>
-</head>
-<body>
-  <h1>你好，我是你的名字</h1>
-  <p>我正在寻找相关工作机会。</p>
+  <meta name="description" content="田盛兰的个人求职网站，展示教育背景、实习经历、内容运营能力与设计技能。">
+  <title>田盛兰 | 个人求职网站</title>
+  <style>
+    :root {
+      --blue: #8fefff;
+      --pink: #ffd7fd;
+      --ink: #18243d;
+      --muted: #5f6b82;
+      --glass: rgba(255, 255, 255, 0.58);
+      --line: rgba(255, 255, 255, 0.72);
+      --shadow: 0 20px 55px rgba(65, 83, 120, 0.14);
+    }
 
-  <h2>关于我</h2>
-  <p>请在这里填写个人介绍。</p>
+    * {
+      box-sizing: border-box;
+    }
 
-  <h2>联系方式</h2>
-  <p>邮箱：your-email@example.com</p>
-</body>
-</html>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+      line-height: 1.75;
+      background:
+        radial-gradient(circle at 10% 12%, rgba(143, 239, 255, 0.85), transparent 28%),
+        radial-gradient(circle at 88% 18%, rgba(255, 215, 253, 0.9), transparent 30%),
+        linear-gradient(135deg, #f6fcff 0%, #fff8ff 52%, #f5fbff 100%);
+      background-attachment: fixed;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      z-index: -1;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      filter: blur(12px);
+      opacity: 0.46;
+    }
+
+    body::before {
+      top: 42%;
+      left: -120px;
+      background: var(--pink);
+    }
+
+    body::after {
+      right: -100px;
+      bottom: 5%;
+      background: var(--blue);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .glass {
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--glass);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+
+    .nav-wrap {
+      position: sticky;
+      top: 16px;
+      z-index: 10;
+      padding-top: 16px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 13px 20px;
+      border-radius: 20px !important;
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.08em;
+    }
