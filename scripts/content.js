@@ -11,10 +11,10 @@ window.SITE_CONTENT = {
     locationPreference: '北京优先 · 可接受远程'
   },
   metrics: [
-    { value: '20+', label: 'AI 产品独立测评' },
+    { value: '30+', label: 'AI 产品测评' },
     { value: '10+', label: '垂直领域原创文章' },
     { value: '1.6', suffix: '万', label: '工作内容单篇最高浏览量' },
-    { value: '4', suffix: '天/周', label: '可稳定出勤' }
+    { value: '4', suffix: '天+/周', label: '可稳定出勤' }
   ],
   roleProfiles: {
     productManager: {
@@ -73,9 +73,9 @@ window.SITE_CONTENT = {
   experiences: [
     {
       id: 'wenge',
-      period: '2026.05–2026.07',
+      period: '2026.05–2026.08',
       company: '北京中科闻歌科技股份有限公司',
-      role: '新媒体运营',
+      role: '品牌市场运营',
       bullets: [
         '参与公众号、视频号、抖音、知乎、X、富途和老虎国际等平台内容运营与分发。',
         '围绕 AI 产品完成短视频策划、剪辑、海报设计和宣传文案；相关工作素材因保密要求不公开。',
