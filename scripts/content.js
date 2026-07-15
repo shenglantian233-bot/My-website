@@ -20,7 +20,7 @@ window.SITE_CONTENT = {
     productManager: {
       label: '产品经理方向',
       eyebrow: 'PRODUCT THINKING · AI PRACTICE',
-      headline: '从复杂信息中，提炼清晰答案。',
+      headline: '田盛兰',
       summary: '关注 AI 产品与真实用户体验，用结构化分析发现问题，用内容能力清晰表达价值。',
       tags: ['产品体验', '用户需求', 'AI 测评'],
       projectOrder: ['yoo', 'ai36kr', 'biomaterials'],
